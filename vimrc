@@ -50,13 +50,13 @@ let wiki_kpb.path = '$HOME/Wiki'
 let wiki_kpb.syntax = 'markdown'
 let wiki_kpb.ext = '.md'
 let wiki_kpb.autotags = 1
+let wiki_kpb.nested_syntaxes = {'python': 'python'}
 let g:vimwiki_list = [wiki_kpb]
 let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown'}
 let g:vimwiki_global_ext = 0
 let g:vimwiki_conceallevel = 2
 let g:vimwiki_hl_headers = 1 "highlight headers
 let g:vimwiki_hl_cb_checked = 1 "highlight checked items
-
 
 "VimWiki Templates {{{
 if has("autocmd")
