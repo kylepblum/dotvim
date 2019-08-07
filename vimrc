@@ -46,7 +46,7 @@ let g:lightline = {
 			\ }
 "Wiki stuff
 let wiki_kpb = {}
-let wiki_kpb.path = '$HOME/Wiki'
+let wiki_kpb.path = '$HOME/Documents/Wiki'
 let wiki_kpb.syntax = 'markdown'
 let wiki_kpb.ext = '.md'
 let wiki_kpb.autotags = 1
